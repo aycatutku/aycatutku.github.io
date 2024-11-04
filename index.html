@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim Portföyüm</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <style>
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 800px;
+            height: 700px;
+        }
+    </style>
+</head>
+<body class="bg-white min-h-screen">
+<main class="container mx-auto px-6 py-12 max-w-4xl">
+    <!-- Header -->
+    <div class="flex items-center gap-3 mb-16">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQEER7j6zFAHHQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1672926073217?e=1736380800&v=beta&t=ZCu5Dv_uDOd43V7FOqLjyouUAefpnOTDFu_1nhhv7-I" alt="Ayça Tutku Arslan" class="rounded-full w-12 h-12">
+        <span class="text-emerald-600 text-sm font-medium">#OpenToWork</span>
+    </div>
+
+    <!-- Hero -->
+    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-8 leading-tight">
+        Mobil uygulama geliştirmede uzmanlaşmış, kullanıcı odaklı projelere <strong style="color: orangered">'tutku'</strong> duyan bir React Native geliştiricisiyim.
+    </h1>
+
+    <!-- Bio -->
+    <p class="text-gray-600 text-lg mb-12 leading-relaxed max-w-3xl">
+        Performans optimizasyonu, kullanıcı deneyimini iyileştirme ve API entegrasyonları konularında derin bilgiye sahibim. Çeşitli projelerde edindiğim güçlü teknik bilgi birikimimi ve yaratıcı problem çözme yeteneğimi, yenilikçi ve değer yaratan çözümler geliştirmek için kullanıyorum. Hızla gelişen teknolojiye uyum sağlamak için sürekli öğrenmeye hevesliyim ve edindiğim yeni becerileri projelerime entegre ederek kullanıcıların beklentilerini aşmayı hedefliyorum.
+    </p>
+
+    <!-- Social Links -->
+    <div class="flex items-center gap-8 mb-20">
+        <a target="_blank" href="https://www.linkedin.com/in/ay%C3%A7a-tutku-arslan-03079b167" class="text-gray-600 hover:text-gray-900 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            <span class="sr-only">LinkedIn</span>
+        </a>
+        <a target="_blank" href="https://github.com/aycatutku" class="text-gray-600 hover:text-gray-900 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+            <span class="sr-only">Github</span>
+        </a>
+        <a href="mailto:tutkuarslaan@gmail.com" class="text-gray-600 hover:text-gray-900 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span class="sr-only">Email</span>
+        </a>
+    </div>
+
+    <!-- Project Slider -->
+    <h2 class="text-2xl font-bold text-gray-800 mb-6">Projelerim</h2>
+    <div class="swiper mySwiper mb-20">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide shadow-lg rounded-lg">
+                <img src="./images/sundubisiklet/2.jpeg" alt="Proje 1" class="w-full h-full object-cover rounded-lg">
+                <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent">
+                    <h3 class="text-white text-xl font-semibold">Sundu Bisiklet</h3>
+                    <p class="text-gray-200">Bisiklet satış ve satış sonrası hizmet uygulaması</p>
+                </div>
+            </div>
+            <div class="swiper-slide shadow-lg rounded-lg">
+                <img src="./images/dildav/2.jpeg" alt="Proje 2" class="w-full h-full object-cover rounded-lg">
+                <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent">
+                    <h3 class="text-white text-xl font-semibold">Dil&Dav</h3>
+                    <p class="text-gray-200">Öğrenme güçlüğü çeken çocuklar için rehber uygulaması</p>
+                </div>
+            </div>
+            <div class="swiper-slide shadow-lg rounded-lg">
+                <img src="./images/olurunedir/1.jpeg" alt="Proje 3" class="w-full h-full object-cover rounded-lg">
+                <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent">
+                    <h3 class="text-white text-xl font-semibold">Oluru Nedir?</h3>
+                    <p class="text-gray-200">Araç alış satış uygulaması</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Yetenekler -->
+    <h2 class="text-2xl font-bold text-gray-800 mb-6">Yeteneklerim</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-lg font-semibold mb-2">Frontend Geliştirme</h3>
+            <ul class="list-disc list-inside text-gray-600">
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>React Native</li>
+                <li>Redux</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-lg font-semibold mb-2">Backend Geliştirme</h3>
+            <ul class="list-disc list-inside text-gray-600">
+                <li>.NET</li>
+                <li>RESTful API</li>
+                <li>OData</li>
+            </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-lg font-semibold mb-2">Diğer Yetenekler</h3>
+            <ul class="list-disc list-inside text-gray-600">
+                <li>RTK Query</li>
+                <li>Axios</li>
+                <li>Firebase</li>
+                <li>Expo CLI</li>
+                <li>Git / GitHub</li>
+                <li>Responsive Web Tasarımı</li>
+                <li>UI/UX Tasarım Prensipleri</li>
+                <li>Agile / Scrum Metodolojileri</li>
+            </ul>
+        </div>
+    </div>
+</main>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+        loop: true,
+        rotate: true,
+        mousewheel: {
+            invert: false,
+        },
+    });
+</script>
+</body>
+</html>
