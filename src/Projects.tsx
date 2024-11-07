@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
         },
         {
             title: 'Oluru Nedir?',
-            description: 'Öğrenme Güçlüğü Çeken Çocuklar İçin Rehber Uygulaması',
+            description: 'Araç Alış Satış Uygulaması',
             link: 'https://play.google.com/store/apps/details?id=com.olurunedir&gl=TR',
             image: olurunedirImage,
         },
