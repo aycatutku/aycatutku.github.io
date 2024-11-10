@@ -1,0 +1,46 @@
+{
+  "greeting": {
+    "before_tutku": "Mobil uygulama geliştirmede uzmanlaşmış, kullanıcı odaklı projelere",
+    "highlighted_word": "'tutku'",
+    "after_tutku": "duyan bir React Native geliştiricisiyim."
+  },
+  "about_me": "Hakkımda",
+  "about_me_description": {
+    "introduction": "2022 yılında Kırıkkale Üniversitesi Bilgisayar Mühendisliği Bölümü'nden mezun oldum. Eğitim sürecim boyunca yazılım geliştirme ve algoritma tasarımı gibi temel bilgisayar mühendisliği prensiplerine dair güçlü bir altyapı edindim. Mezuniyetimin ardından, özellikle Front-End geliştirme alanına odaklandım ve React Native ile mobil uygulama geliştirme konusunda uzmanlaştım. Bu alandaki çalışmalarımda, kullanıcı dostu ve yüksek performanslı uygulamalar geliştirerek kullanıcı deneyimini en üst düzeye çıkarma konusuna büyük önem veriyorum.",
+    "body": "React, TypeScript, HTML, CSS ve modern JavaScript teknolojilerine hakimim; bu teknolojilerle, karmaşık projelerde dahi esnek ve sürdürülebilir çözümler üretebiliyorum. Projelerimdeki amacım, sadece işlevsel değil, aynı zamanda estetik ve kullanıcı odaklı arayüzler oluşturarak uygulama deneyimini geliştirmek. Aynı zamanda yeni teknolojilere olan merakım sayesinde sektördeki en son trendleri ve yenilikleri takip ediyorum; böylece kendimi sürekli güncel tutarak projelerime değer katıyorum.",
+    "conclusion": "İleriye dönük kariyer hedeflerim arasında, daha geniş çaplı projelerde sorumluluk almak ve ekip çalışmasının bir parçası olarak yenilikçi çözümler geliştirmek yer alıyor. İnovasyona önem veren bir takımda yer alarak sektörde etki yaratmak istiyorum. Bununla birlikte, teknolojiye olan ilgim sadece profesyonel hayatımla sınırlı değil; boş zamanlarımda oyun oynamak, yeni kodlama tekniklerini keşfetmek ve yan projeler geliştirmek benim için bir hobi haline geldi. Yazılım dünyasındaki gelişmeleri yakından takip ederek her zaman kendimi geliştirmeyi ve öğrendiğim bilgileri uygulamaya dökmeyi amaçlıyorum. Uzun vadede, sektörde yetkin bir yazılımcı olarak uzmanlaşmak ve kullanıcı deneyimini merkeze alan projelerde etkili çözümler sunmak en büyük hedefim."
+  },
+  "my_projects": "Projelerim",
+  "projects": {
+    "sundu_bisiklet": "Bisiklet Satış ve Satış Sonrası Hizmet Uygulaması",
+    "falistan": "Online Astroloji ve Fal Uygulaması",
+    "dildav": "Öğrenme güçlüğü çeken çocuklar için rehber uygulaması",
+    "oluru_nedir": "Araç Alış Satış Uygulaması",
+    "saglik_asistanim": "Uzaktan Sağlık Hizmeti ve Görüntülü Muayene Uygulaması",
+    "cadem": "Çalışan Destek Uygulaması"
+  },
+  "my_skills": "Becerilerim",
+  "skills": {
+    "responsive_web_design": "Responsive Web Tasarımı",
+    "design_principles": "UI/UX Tasarım Prensipleri",
+    "methodologies": "Agile / Scrum Metodolojileri"
+  },
+  "experiences": "Deneyimler",
+  "companies": {
+    "webudi": "React Native kullanarak mobil uygulamalar geliştirdim ve bakımını üstlendim; düzenli güncellemelerle uygulama performansını iyileştirdim ve çökme oranlarını azaltarak kullanıcı deneyimini geliştirdim. Uygulama yayınlama sürecinin tamamını yönettim; Google Play ve App Store’a 5'ten fazla uygulama başarıyla yayımlayarak %98 hatasız çalışmasını sağladım ve mağaza yönergelerine uyum gösterdim.",
+    "molekul": "Performans optimizasyonuna ve kullanıcı işlevselliğinin iyileştirilmesine odaklanarak React Native ve Kotlin ile mobil uygulamalar geliştirdim. Google Play ve App Store’da %100 uyumluluk sağlayarak uygulama yayınlama yaşam döngüsünü yönettim.",
+    "telekom": {
+      "description": "Java ile fatura işlerimlerini sağlayan masaüstü uygulama geliştirdim.",
+      "title": "R&D Intern"
+    }
+  },
+  "contact": "İletişim",
+  "header": {
+    "home": "Ana Sayfa",
+    "about_me": "Hakkımda",
+    "projects": "Projeler",
+    "skills": "Beceriler",
+    "experience": "Deneyim",
+    "contact": "İletişim"
+  }
+}

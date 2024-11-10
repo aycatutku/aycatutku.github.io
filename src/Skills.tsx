@@ -1,6 +1,9 @@
 import React from "react";
+import {useTranslation} from "react-i18next";
 
 const Skills: React.FC = () => {
+
+    const {t} = useTranslation();
 
     const skills = [
         {name: 'React Native'},
@@ -20,9 +23,9 @@ const Skills: React.FC = () => {
         {name: 'Firebase'},
         {name: 'Expo CLI'},
         {name: 'Git / GitHub'},
-        {name: 'Responsive Web Tasarımı'},
-        {name: 'UI/UX Tasarım Prensipleri'},
-        {name: 'Agile / Scrum Metodolojileri'},
+        {name: t('skills.responsive_web_design')},
+        {name: t('skills.design_principles')},
+        {name: t('skills.methodologies')},
     ];
 
     return (
@@ -30,7 +33,7 @@ const Skills: React.FC = () => {
             id="skills"
             className="flex flex-col items-center bg-darkPurple p-4 sm:p-6 md:p-8"
         >
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gold mb-8">Becerilerim</h1>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gold mb-8">{t('my_skills')}</h1>
 
             <div className="rounded-lg md:w-2/3 ">
                 <div className="flex flex-wrap self-center justify-center gap-4">

@@ -1,35 +1,38 @@
 import React from "react";
-
-const experiences = [
-    {
-        date: '09/2023 - 11/2024',
-        position: 'React Native Geliştirici',
-        company: 'Webudi Yazılım Bilişim',
-        description: 'React Native kullanarak mobil uygulamalar geliştirdim ve bakımını üstlendim; düzenli güncellemelerle uygulama performansını iyileştirdim ve çökme oranlarını azaltarak kullanıcı deneyimini geliştirdim.\n' +
-            '\n' +
-            'Uygulama yayınlama sürecinin tamamını yönettim; Google Play ve App Store’a 5\'ten fazla uygulama başarıyla yayımlayarak %98 hatasız çalışmasını sağladım ve mağaza yönergelerine uyum gösterdim.',
-    },
-    {
-        date: '04/2022 - 09/2023',
-        position: 'Mobile Developer',
-        company: 'Molekül Teknoloji Ürünleri',
-        description: 'Performans optimizasyonuna ve kullanıcı işlevselliğinin iyileştirilmesine odaklanarak React Native ve Kotlin ile mobil uygulamalar geliştirdim. Google Play ve App Store’da %100 uyumluluk sağlayarak uygulama yayınlama yaşam döngüsünü yönettim.',
-    },
-    {
-        date: '08/2018',
-        position: 'Ar-Ge Stajyeri',
-        company: 'Türk Telekom',
-        description: 'Java ile fatura işlerimlerini sağlayan masaüstü uygulama geliştirdim.',
-    },
-];
+import {useTranslation} from "react-i18next";
 
 const Experiences: React.FC = () => {
+
+    const {t} = useTranslation();
+
+    const experiences = [
+        {
+            date: '09/2023 - 11/2024',
+            position: 'React Native Developer',
+            company: 'Webudi Yazılım Bilişim',
+            description: t('companies.webudi'),
+        },
+        {
+            date: '04/2022 - 09/2023',
+            position: 'Mobile Developer',
+            company: 'Molekül Teknoloji Ürünleri',
+            description:t('companies.molekul'),
+        },
+        {
+            date: '08/2018',
+            position: t('companies.telekom.title'),
+            company: 'Türk Telekom',
+            description: t('companies.telekom.description'),
+        },
+    ];
+
+
     return (
         <section
             id="experiences"
             className="flex flex-col items-center bg-darkPurple p-4 sm:p-6 md:p-8"
         >
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gold mb-8">Deneyimler</h1>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gold mb-8">{t('experiences')}</h1>
             <div className="relative w-full max-w-4xl">
                 <div className="absolute left-4 sm:left-1/2 sm:transform sm:-translate-x-1/2 w-0.5 h-full bg-bronze"></div>
 

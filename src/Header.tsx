@@ -1,6 +1,8 @@
 import {useState} from 'react';
+import {useTranslation} from "react-i18next";
 
 const Header = () => {
+    const { t } = useTranslation();
     const [activeLink, setActiveLink] = useState("#home");
 
     const handleClick = (link: string) => {
@@ -8,12 +10,12 @@ const Header = () => {
     };
 
     const navItems = [
-        {href: "#home", text: "Ana Sayfa"},
-        {href: "#about", text: "Hakkımda"},
-        {href: "#projects", text: "Projeler"},
-        {href: "#skills", text: "Beceriler"},
-        {href: "#experiences", text: "Deneyim"},
-        {href: "#contact", text: "İletişim"}
+        {href: "#home", text: t('header.home')},
+        {href: "#about", text: t('header.about_me')},
+        {href: "#projects", text: t('header.projects')},
+        {href: "#skills", text: t('header.skills')},
+        {href: "#experiences", text: t('header.experience')},
+        {href: "#contact", text: t('header.contact')}
     ];
 
     return (

@@ -1,6 +1,10 @@
 import React from 'react';
+import {useTranslation} from "react-i18next";
 
 const Home: React.FC = () => {
+
+    const { t } = useTranslation();
+
     return (
         <section
             id="home"
@@ -20,10 +24,10 @@ const Home: React.FC = () => {
                         React Native Developer
                     </h2>
                     <h2 className="text-xl sm:text-2xl md:text-3xl mt-4 text-gold px-4 sm:px-8 md:px-12">
-                        Mobil uygulama geliştirmede uzmanlaşmış, kullanıcı odaklı projelere
+                        {t('greeting.before_tutku')}
                         {' '}
-                        <span className="text-yellow font-semibold">'tutku'</span>{' '}
-                        duyan bir React Native geliştiricisiyim.
+                        <span className="text-yellow font-semibold">{t('greeting.highlighted_word')}</span>{' '}
+                        {t('greeting.after_tutku')}
                     </h2>
 
                     <div className="flex w-full justify-center mt-10">

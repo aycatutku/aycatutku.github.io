@@ -1,0 +1,46 @@
+{
+  "greeting": {
+    "before_tutku": "I am a React Native developer with a",
+    "highlighted_word": "'passion'",
+    "after_tutku": "for user-focused, high-quality mobile applications."
+  },
+  "about_me": "About Me",
+  "about_me_description": {
+    "introduction": "I graduated from the Computer Science Engineering Department at Kırıkkale University in 2022. Throughout my education, I built a strong foundation in core computer engineering principles such as software development and algorithm design. After graduation, I focused specifically on Front-End development and specialized in mobile application development with React Native. In my work in this field, I place great importance on maximizing the user experience by developing user-friendly and high-performance applications.",
+    "body": "I am proficient in React, TypeScript, HTML, CSS, and modern JavaScript technologies; with these technologies, I am able to produce flexible and sustainable solutions, even in complex projects. My goal in my projects is to enhance the application experience by creating interfaces that are not only functional but also aesthetic and user-focused. Additionally, my curiosity for new technologies allows me to stay updated with the latest trends and innovations in the industry, continuously adding value to my projects by keeping myself current.",
+    "conclusion": "My long-term career goals include taking on responsibilities in larger-scale projects and developing innovative solutions as part of a collaborative team. I aspire to make an impact in the industry by being part of a team that values innovation. Additionally, my interest in technology extends beyond my professional life; in my free time, playing games, exploring new coding techniques, and developing side projects have become hobbies for me. By closely following developments in the software world, I aim to continually improve myself and apply what I learn. In the long run, my greatest goal is to specialize as a proficient developer in the industry and to deliver impactful solutions in projects that prioritize user experience."
+  },
+  "my_projects": "My Projects",
+  "projects": {
+    "sundu_bisiklet": "Bicycle Sales and After-Sales Service Application",
+    "falistan": "Online Astrology and Fortune-Telling Application",
+    "dildav": "Guide Application for Children with Learning Difficulties",
+    "oluru_nedir": "Vehicle Purchase and Sales Application",
+    "saglik_asistanim": "Remote Healthcare and Video Consultation Application",
+    "cadem": "Employee Support Application"
+  },
+  "my_skills": "My Skills",
+  "skills": {
+    "responsive_web_design": "Responsive Web Design",
+    "design_principles": "UI/UX Design Principles",
+    "methodologies": "UI/UX Design Principles"
+  },
+  "experiences": "Experiences",
+  "companies": {
+    "webudi": "I developed and maintained mobile applications using React Native; I improved application performance with regular updates and enhanced user experience by reducing crash rates. I managed the entire application publishing process; successfully published more than 5 applications to Google Play and the App Store, ensuring 98% error-free operation and compliance with store guidelines.",
+    "molekul": "I developed mobile applications using React Native and Kotlin, focusing on performance optimization and enhancing user functionality. I managed the application publishing lifecycle, ensuring 100% compliance on Google Play and the App Store.",
+    "telekom": {
+      "description":"I developed a desktop application with Java to manage billing operations.",
+      "title":"R&D Intern"
+    }
+  },
+  "contact": "Contact",
+  "header": {
+    "home": "Home",
+    "about_me": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  }
+}

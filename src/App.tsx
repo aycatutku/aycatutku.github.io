@@ -8,6 +8,8 @@ import VerticalCircles from "./components/VerticalCircles";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Experiences from "./Experiences";
+import'./i18n.js';
+import LanguageSelector from "./components/LanguageSelector";
 
 const App: React.FC = () => {
     return (
@@ -26,6 +28,7 @@ const App: React.FC = () => {
                 <VerticalCircles/>
                 <Contact/>
             </main>
+            <LanguageSelector />
             <Firefly/>
         </div>
     );
