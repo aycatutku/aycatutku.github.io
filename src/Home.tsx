@@ -1,5 +1,6 @@
 import React from 'react';
 import {useTranslation} from "react-i18next";
+import profileImage from './assets/pp.jpeg';
 
 const Home: React.FC = () => {
 
@@ -12,9 +13,9 @@ const Home: React.FC = () => {
         >
             <div className="flex flex-col justify-center items-center gap-3 max-w-3xl mx-auto">
                 <img
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQEER7j6zFAHHQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1672926073217?e=1736380800&v=beta&t=ZCu5Dv_uDOd43V7FOqLjyouUAefpnOTDFu_1nhhv7-I"
+                    src={profileImage}
                     alt="Ayça Tutku Arslan"
-                    className="rounded-full w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 border-2 border-yellow mb-4"
+                    className="rounded-full w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 border-2 border-yellow mb-4 inset-0 w-full h-full object-cover"
                 />
                 <div className="text-center px-4 sm:px-8">
                     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gold">
