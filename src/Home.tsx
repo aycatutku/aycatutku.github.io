@@ -1,6 +1,6 @@
 import React from 'react';
 import {useTranslation} from "react-i18next";
-import profileImage from '../public/pp.jpeg';
+import profileImage from './assets/pp.jpeg';
 
 const Home: React.FC = () => {
 
