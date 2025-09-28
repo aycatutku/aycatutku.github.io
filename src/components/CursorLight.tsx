@@ -1,9 +1,15 @@
 import { useState, useEffect, useRef } from 'react'
 
+interface TrailPoint {
+    x: number
+    y: number
+    id: number
+}
+
 const CursorLight = () => {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
     const [isClient, setIsClient] = useState(false)
-    const [trail, setTrail] = useState([])
+    const [trail, setTrail] = useState<TrailPoint[]>([])
     const trailIdRef = useRef(0)
 
     useEffect(() => {
@@ -13,7 +19,7 @@ const CursorLight = () => {
     useEffect(() => {
         if (!isClient) return
 
-        const updateMousePosition = (e) => {
+        const updateMousePosition = (e: MouseEvent) => {
             const newPosition = { x: e.clientX, y: e.clientY }
             setMousePosition(newPosition)
 
@@ -34,7 +40,6 @@ const CursorLight = () => {
 
     return (
         <>
-            {/* Hafif ana ışık merkezi */}
             <div
                 className="fixed rounded-full pointer-events-none z-40"
                 style={{
@@ -48,7 +53,6 @@ const CursorLight = () => {
                 }}
             />
 
-            {/* Ultra soft iz */}
             {trail.map((point, index) => (
                 <div
                     key={point.id}
