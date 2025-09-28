@@ -4,7 +4,7 @@ import profileImage from './assets/pp.jpeg';
 
 const Home: React.FC = () => {
 
-    const { t } = useTranslation();
+    const {t} = useTranslation();
 
     return (
         <section
@@ -15,7 +15,7 @@ const Home: React.FC = () => {
                 <img
                     src={profileImage}
                     alt="Ayça Tutku Arslan"
-                    className="rounded-full w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 border-2 border-yellow mb-4 inset-0 w-full h-full object-cover"
+                    className="rounded-full w-[28vw] h-[28vw] min-w-16 min-h-16 max-w-32 max-h-32 sm:w-24 sm:h-24 md:w-28 md:h-28 border-2 border-yellow mb-4 object-cover mx-auto"
                 />
                 <div className="text-center px-4 sm:px-8">
                     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gold">
